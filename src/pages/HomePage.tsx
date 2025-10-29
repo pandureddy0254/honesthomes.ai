@@ -5,6 +5,7 @@ import FeaturedListings from '../components/FeaturedListings';
 import InsightsSection from '../components/InsightsSection';
 import Testimonials from '../components/Testimonials';
 import CtaBanner from '../components/CtaBanner';
+import ExperienceShowcase from '../components/ExperienceShowcase';
 
 const HomePage = () => {
   return (
@@ -12,6 +13,7 @@ const HomePage = () => {
       <HeroSection />
       <MetricsStrip />
       <SearchPanel />
+      <ExperienceShowcase />
       <FeaturedListings />
       <InsightsSection />
       <Testimonials />

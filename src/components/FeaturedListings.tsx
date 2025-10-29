@@ -14,6 +14,13 @@ const FeaturedListings = () => {
           intelligence baked in.
         </p>
       </div>
+      <div className="listing-filters">
+        {['Family homes', 'Luxury', 'High yield', 'Ready to move'].map(filter => (
+          <button key={filter} type="button">
+            {filter}
+          </button>
+        ))}
+      </div>
       <div className="listing-grid">
         {status === 'loading' && <p className="loading">Fetching curated properties...</p>}
         {status !== 'loading' &&

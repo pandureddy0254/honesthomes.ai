@@ -16,7 +16,21 @@ const SearchPanel = () => {
 
   return (
     <section className="search-panel">
-      <h2>Tell us how you want to live</h2>
+      <div className="search-header">
+        <div>
+          <h2>Tell us how you want to live</h2>
+          <p>
+            Answer three quick questions and receive curated neighbourhood shortlists, virtual walkthroughs, and
+            financing options aligned to your lifestyle.
+          </p>
+        </div>
+        <button className="ghost-btn secondary">Book an advisory call</button>
+      </div>
+      <div className="search-toolbar">
+        {['Discovery', 'Shortlisting', 'Site visits', 'Closure'].map(stage => (
+          <span key={stage}>{stage}</span>
+        ))}
+      </div>
       <div className="search-grid">
         <label>
           City
