@@ -1,0 +1,77 @@
+# ---- Node / Package managers ----
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-debug.log*
+.eslintcache
+
+# ---- Build / Bundler outputs ----
+dist/
+build/
+.tmp/
+.tmp-*
+.cache/
+parcel-cache/
+vite.svg
+*.tsbuildinfo
+
+# ---- Tests / Coverage ----
+coverage/
+.nyc_output/
+.jest/
+jest-cache/
+jest-stare/
+cypress/videos/
+cypress/screenshots/
+cypress/downloads/
+playwright-report/
+test-results/
+
+# ---- Env files (keep .env.example committed) ----
+.env
+.env.*.local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ---- Framework / Tooling caches ----
+.storybook-out/
+storybook-static/
+.next/
+.sass-cache/
+.browserslistrc.lock
+
+# ---- IDE / Editors ----
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/launch.json
+.idea/
+*.iml
+
+# ---- OS junk ----
+.DS_Store
+Thumbs.db
+
+# ---- Misc ----
+*.log
+*.pid
+*.pid.lock
+*.seed
+*.tgz
+*.orig
+*.patch
+*.rej
+
+# ---- Local tooling ----
+.vercel/
+.netlify/
+firebase-debug.log
+firebase-debug.*
+functions/.cache/
+
+# ---- Images/artifacts created during dev ----
+*.local.*
