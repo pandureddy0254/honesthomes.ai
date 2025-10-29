@@ -3,11 +3,13 @@ import PlatformFeatures from '../components/PlatformFeatures';
 import PricingSection from '../components/PricingSection';
 import Testimonials from '../components/Testimonials';
 import CtaBanner from '../components/CtaBanner';
+import DashboardShowcase from '../components/DashboardShowcase';
 
 const SaaSPlatformPage = () => {
   return (
     <main className="platform-page">
       <PlatformHero />
+      <DashboardShowcase />
       <PlatformFeatures />
       <section className="integration-section">
         <div className="section-heading">
